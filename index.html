@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semana 5 - Sesion 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h2>Selectores</h2>
+      <h3>Indica a que elemento o elementos se van aplicar estilos</h3>
+      <ul>
+        <li><h3>Selector de etiqueta</h3></li>
+        <p>la etiqueta h4 va tener un estilo de color</p>
+        <h4>Soy un h4</h4>
+        <li><h3>Selector de descendencia</h3></li>
+        <p>La etiqueta <span>span</span> va a tener un estilo de color</p>
+      </ul>
+    </div>
+    <div>
+      <h2>Herencia</h2>
+      <h3>Los hijos van a heredar algunas propiedades de los padres</h3>
+      <div class="herencia">
+        <p>todas las etiquetas dentro de este div van a tener un estilo <a href="#">excepto esta etiqueta a</a></p>
+      </div>
+    </div>
+    <div class="cascada">
+      <h2>Cascada</h2>
+      <h3>Lo que está despues se va a sobreescribir al estilo</h3>
+      <p>Soy un párrafo</p>
+    </div>
+    <div>
+      <h2>Especifidad</h2>
+      <h3>Es el valor que adquiere los selectores y se va a determinar que regla CSS va prevalecer</h3>
+      <ul>
+        <li><h3>!important</h3></li>
+        <p class="important">Lorem ipsum dolor sit amet.</p>
+        <li><h3>inline</h3></li>
+        <p style="color: #c08226">Lorem ipsum dolor sit amet.</p>
+        <li><h3>id</h3></li>
+        <p id="id">Lorem ipsum dolor sit amet.</p>
+        <li><h3>clase</h3></li>
+        <p class="clase">Lorem ipsum dolor sit amet.</p>
+        <li><h3 class="etiqueta">etiqueta</h3></li>
+        <div><p>Lorem ipsum dolor sit amet.</p></div>
+      </ul>
+    </div>
+    <div>
+      <h2>Unidades de Medida</h2>
+      <h3>Es el tamaño que van a tomar los elementos</h3>
+      <ul>
+        <li><h3>pixeles</h3></li>
+        <p class="pixeles">toma la medida que se le asigna</p>
+        <li><h3>rem</h3></li>
+        <p class="rem">toma la medida de la etiqueta html</p>
+        <li><h3>em</h3></li>
+        <div class="padre">
+          <p>toma la medida del padre directo</p>
+        </div>
+        <li><h3>vh</h3></li>
+        <p>representa un porcentaje de la altura visible de la pantalla</p>
+        <div class="vh"></div>
+        <li><h3>vw</h3></li>
+        <p>representa un porcentaje del ancho visible de la pantalla</p>
+        <div class="vw"></div>
+      </ul>
+    </div>
+    <div>
+      <h2>Tipografía</h2>
+      <h3>Se refiere a la familia de fuente que se va aplicar</h3>
+      <p class="tipografia">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, iure.</p>
+    </div>
+    <div>
+      <h2>Propiedades de fuentes</h2>
+      <ul>
+        <li>
+          <h3>font-weight</h3>
+          <p class="grosor">Especifica el grosor del texto</p>
+        </li>
+        <li>
+          <h3>font-size</h3>
+          <p class="tamaño">Especifica el tamaño del texto</p>
+        </li>
+        <li>
+          <h3>font-style</h3>
+          <p class="estilo">Especifica el estilo del texto</p>
+        </li>
+        <li>
+          <h3>text-transform</h3>
+          <p class="transformacion">Especifica el cambio entre mayuscula y minuscula del texto</p>
+        </li>
+        <li>
+          <h3>letter-spacing</h3>
+          <p class="letra">Especifica el espaciado entre letras</p>
+        </li>
+        <li>
+          <h3>word-spacing</h3>
+          <p class="palabra">Especifica el espaciado entre palabras</p>
+        </li>
+        <li>
+          <h3>text-align</h3>
+          <p class="centrar">Centra los textos</p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

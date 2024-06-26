@@ -1,0 +1,118 @@
+/*Selector de etiqueta*/
+h4 {
+  color: blue;
+}
+
+/*Selector de descendencia*/
+ul p span {
+  color: brown;
+}
+
+/*Herencia*/
+.herencia {
+  color: rgb(49, 117, 17);
+}
+
+/*Cascada*/
+.cascada p {
+  color: blueviolet;
+}
+
+.cascada p {
+  color: #2410d5;
+}
+
+/*-- ESPECIFIDAD --*/
+
+/*important*/
+.important {
+  color: #33a9a9 !important;
+}
+
+.important {
+  color: #293d3d;
+}
+
+/*id*/
+#id {
+  color: #559fce;
+}
+
+/*clase*/
+.clase {
+  color: #7ed328;
+}
+
+/*etiqueta*/
+div ul div p {
+  color: rgb(69, 27, 206);
+}
+
+/*-- UNIDADES DE MEDIDA --*/
+
+/*pixeles*/
+.pixeles {
+  font-size: 20px;
+}
+
+/*rem*/
+.rem {
+  font-size: 2rem;
+}
+
+/*em*/
+.padre {
+  font-size: 20px;
+}
+
+.padre p {
+  font-size: 2em;
+}
+
+/*vh*/
+.vh {
+  background: red;
+  height: 20vh;
+}
+
+/*vw*/
+.vw {
+  background: blue;
+  height: 20vh;
+  width: 50vw;
+}
+
+/*tipografia*/
+.tipografia {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*-- Propiedades de Fuentes --*/
+
+.grosor {
+  font-weight: 800;
+}
+
+.tamaño {
+  font-size: 18px;
+}
+
+.estilo {
+  font-style: italic;
+}
+
+.transformacion {
+  text-transform: uppercase;
+}
+
+.letra {
+  letter-spacing: 10px;
+}
+
+.palabra {
+  word-spacing: 10px;
+}
+
+.centrar {
+  text-align: center;
+}
